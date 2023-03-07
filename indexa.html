@@ -64,6 +64,61 @@
         margin-top: 26px;
         font-size: 1.4rem;
     }
+    
+    .continer {}
+    
+    .continer__head {
+        display: flex;
+        margin: 30px 20% 46px 10%;
+        align-content: center;
+        justify-content: space-between;
+    }
+    
+    .continer__head__item_l {
+        padding: 16px 0;
+        color: #459d7a;
+        font-size: 20px;
+        width: 194px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .continer_head__left {
+        display: flex;
+    }
+    
+    .continer__head__right {
+        display: flex;
+    }
+    
+    .cht_bor {
+        border-right: 1px solid #459d7a;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .continer__body {}
+    
+    .continer__body__list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 134px;
+    }
+    
+    .continer__body__item {
+        width: 24.9999%;
+    }
+    
+    .continer__body__item__body {}
+    
+    .continer__body__item__body__heading {
+        padding: 12px 0;
+    }
+    
+    .continer__body__item__body__dsc {}
 </style>
 
 
@@ -105,6 +160,91 @@
             <p class="slider__dsc">
                 Aliquip fugiat ipsm nostrud ex et incididunt <br> quis minum dolore excepteur voluptate
             </p>
+        </div>
+    </div>
+
+
+
+    <div class="continer">
+        <div class="continer__head">
+            <div class="continer_head__left">
+                <div class="continer__head__item_l " style="background-color: #459d7a;
+                color: #fff;border-radius: 5px;">
+                    All Products
+                </div>
+                <div class="continer__head__item_l cht_bor ">
+                    Face
+                </div>
+                <div class="continer__head__item_l">
+                    Body
+                </div>
+            </div>
+            <div class="continer__head__right" style="    display: flex;
+            align-items: center;
+            justify-content: center;">
+                <div class="continer__head__item" style="    padding: 15px 23px;
+                border-bottom: 1px solid #ccc;">
+                    <i class="ti-search" style="    padding: 6px 12px 14px 12px;font: 3rem;"></i >
+                    <input type="text" name="" id="" placeholder="Search Product" style="    border: none;outline: none;">
+                </div>
+                <div class="continer__head__item" style="padding: 13px 15px;
+                font-size: 1.3rem;
+                margin-left: 46px;
+                color: #605252;
+                background-color: #f3f4f6;">
+                Sort by
+                <i class="ti-menu" style="    padding-left: 21px;
+                position: relative;
+                top: 2px;"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="continer__body">
+            <ul class="continer__body__list">
+                <li class="continer__body__item">
+                    <img src="./Image 1 (1).png" alt="" style="">
+                    <div class="continer__body__item__body">
+                        <h3 class="continer__body__item__body__heading">
+                            Produce Titile
+
+                        </h3>
+                        <p class="continer__body__item__body__dsc">
+                            Labrore sint ipsum dolore mollit
+                        </p>
+
+                        <div style="display: flex;">
+                            <div>
+
+                                <h6>$32</h6>
+                                <h2>$42</h2>
+                            </div>
+                            <img src="./Button 1 (3).png" alt="" style="w">
+                        </div>
+                    </div>
+                </li>
+                <li class="continer__body__item">
+                    <img src="./Image 1 (1).png" alt="">
+                    <div class="continer__body__item__body">
+                        <h3 class="continer__body__item__body__heading">
+                            Produce Titile
+
+                        </h3>
+                        <p class="continer__body__item__body__dsc">
+                            Labrore sint ipsum dolore mollit
+                        </p>
+
+                        <div style="display: flex;">
+                            <h6>$32</h6>
+                            <h2>$42</h2>
+                            <img src="./Button 1 (3).png" alt="">
+                        </div>
+                    </div>
+                </li>
+
+
+            </ul>
         </div>
     </div>
 </body>
