@@ -162,6 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 16%;
 }
 .continer__body__list__num__item{
     margin: 10px;
@@ -170,6 +171,63 @@
     color: #ccc;
     padding: 12px;
     font-size: 20px;
+}
+
+
+.footer{
+    width: 80%;
+    display: flex;
+    padding: 54px 0;
+    background-color: #1d2128;
+}
+.footer_left{
+    width: 52%;
+    display: flex;
+    justify-content: center;
+}
+.footer_left_list{
+    padding: 0 55px;
+    color: #dee1e6;
+}
+.footer_left_item{
+    padding: 8px 0px;
+}
+.footer_left__item__heading{
+    font-size: 21px;
+}
+
+.footer_right{
+    margin-left: 145px;
+}
+.footer_right__heading{
+    font-size: 32px;
+    color: #dee1e6;
+}
+.footer_right_-dsc{
+   font-size: 23px;
+   color: #dee1e6;
+
+    padding: 12px 1px 12px 0;
+}
+::placeholder{
+    color: #afb3bc;
+    font-size: 18px;
+}
+.footer_right__input__wrapp{
+  
+    padding: 14px 30px 14px 23px;
+    border: 1px solid #dee1e6;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer_right__list__icon{
+    display: flex;
+    margin: 10px 0; 
+}
+.footer_right__icon__item{
+    font-size: 25px;
+    padding: 0 14px 0 0px;
 }
 </style>
 
@@ -536,7 +594,135 @@
                 </ul>
             </div>
         </div>
-    </div>
+  
+
+        <footer class="footer">
+            <div class="footer_left">
+                <ul class="footer_left_list">
+                    <li class="footer_left_item">
+                        <h4 class="footer_left__item__heading">
+                            About
+                        </h4>
+                    </li>
+                    <li class="footer_left_item">
+                            Home
+                    </li>
+                    <li class="footer_left_item">
+                         Shop
+                    </li>
+                    <li class="footer_left_item">
+                         Our Story
+                    </li>
+                    <li class="footer_left_item">
+                         Blogs
+                    </li>
+                    
+                    <li class="footer_left_item">
+                        <select name="" id="" style="    padding: 6px 7px;
+                        background-color: transparent;
+                        color: #fff;
+                        border-color: #fff;
+                        border-radius: 4px;">
+                            <option value="">EngLish</option>
+                            <option value="">Tiếng Việt</option>
+
+                        </select>
+                   </li>
+                </ul>
+                <ul class="footer_left_list">
+                    <li class="footer_left_item">
+                        <h4 class="footer_left__item__heading">
+                            Help
+                        </h4>
+                    </li>
+                    <li class="footer_left_item">
+                           Shiping & Returns 
+                    </li>
+                    <li class="footer_left_item">
+                         Track Order
+                    </li>
+                    <li class="footer_left_item">
+                         FAGs
+                    </li>
+                     
+                    
+                </ul>
+                <ul class="footer_left_list">
+                    <li class="footer_left_item">
+                        <h4 class="footer_left__item__heading">
+                           Contact
+                        </h4>
+                    </li>
+                    <li class="footer_left_item">
+                            Phone:
+                    </li>
+                    <li class="footer_left_item">
+                         <b>(+1) 123 456 7893</b>
+                    </li>
+                    <li class="footer_left_item">
+                         Email
+                    </li>
+                    <li class="footer_left_item">
+                         name@gmail.com
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="footer_right">
+                <h3 class="footer_right__heading">
+                    Receive new protomotions
+                </h3>
+                <p class="footer_right_-dsc">
+                    Duis ea tempor commodo amet reprehende
+                </p>
+
+                <form action="" style="height: 68px;
+                margin-bottom: 24px;
+            ">
+                    <div class="footer_right__input__wrapp">
+                        <i class="ti-email"
+                        style="    color: #dee1e6;
+                        font-size: 24px;"></i>
+                        <input type="email" placeholder="Input your email " style="padding: 11px;
+                        margin-left: 10px;
+                        border: none;
+                        background-color: #1d2128;
+                        outline: none;
+                        color: #dee1e6;
+                        ">
+                    </div>
+                        <button type="submit" style="     background-color: #459d7a;
+                        color: #fff;
+                        border: none;
+                        font-size: 21px;
+                        padding: 24px 28px 19px 28px;
+                        position: relative;
+                        right: -65%;
+                        border-top-left-radius: none;
+                        border-top-right-radius: 10px;
+                        border-bottom-right-radius: 10px;
+                        top: -67px;">Subcribe</button>
+                </form>
+
+                <ul class="footer_right__list__icon">
+                    <li class="footer_right__icon__item">
+                        <i class="ti-twitter" style="color: #2ebae8;"></i>
+                    </li>
+                    <li class="footer_right__icon__item">
+                        <i class="ti-facebook" style="color: #2e6fe8;"></i>
+                    </li>
+                    <li class="footer_right__icon__item">
+                        <i class="ti-linkedin" style="color: #7797e4;"></i>
+                    </li>
+                    <li class="footer_right__icon__item">
+                        <i class="ti-youtube" style="color: #e82e2e;"></i>
+                    </li>
+                </ul>
+
+                <img src="./ftrimg.png" alt="">
+                </p>
+            </div>
+        </footer>
 </body>
 
 </html>
